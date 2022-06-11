@@ -1,4 +1,8 @@
-
+body {
+  background-image: url("assets\img\borroneado-tr.jpg");
+   background-repeat: repeat-y;
+   background-size: contain;
+}
 .hand-cursor{
   cursor: pointer;
 }
