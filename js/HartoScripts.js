@@ -7,10 +7,10 @@ $(document).ready(function(){
     arrows: false,
     dots: true,
     infinite: true,
-    speed: 750,
+    speed: 350,
     cssEase: 'ease-out',
     autoplay: true,
-    autoplaySpeed: 2000,
+    autoplaySpeed: 9000,
   });
 
   $('.autoplay').slick({
