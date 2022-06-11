@@ -25,11 +25,7 @@ $(document).ready(function(){
 
 
 const myTags = [
-   'JavaScript', 'CSS', 'HTML',
-   'C', 'C++', 'React',
-   'Python', 'Java', 'git',
-   'django', 'Node.js', 'OpenCV',
-   'GCP', 'MySQL', 'jQuery',
+   'agua', 'auto', 'avión', 'azulejos', 'bicicleta', 'botón', 'brazo', 'butaca', 'cabeza', 'caja', 'cajones', 'campana', 'celular', 'chihuahua', 'cuchillo', 'dinosaurios', 'edificio', 'escaleras', 'espejo', 'graffitis', 'hilo','mano', 'media', 'mochila', 'nariz', 'ojos', 'omnibus', 'pasillo', 'patines', 'peces', 'pelo', 'pies', 'piscina', 'puertas', 'ropa', 'tanques', 'tapabocas', 'tele', 'tren', 'tribuna', 'ventanas',
 ];
 
 var tagCloud = TagCloud('.content', myTags,{
