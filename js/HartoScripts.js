@@ -31,7 +31,7 @@ const myTags = [
 var tagCloud = TagCloud('.content', myTags,{
 
  // radius in px
- radius: 600,
+ radius: 250,
 
  // animation speed
  // slow, normal, fast
@@ -49,7 +49,7 @@ var tagCloud = TagCloud('.content', myTags,{
 });
 
 //To change the color of text randomly
-var colors = ['#34A853', '#FBBC05', '#4285F4', '#7FBC00', 'FFBA01', '01A6F0'];
+var colors = ['#ffffff', '#9F9F9F', '#D62424', '#24D695'];
 var random_color = colors[Math.floor(Math.random() * colors.length)];
 document.querySelector('.content').style.color = random_color;
 
