@@ -9,8 +9,8 @@ $(document).ready(function(){
     infinite: true,
     speed: 750,
     cssEase: 'ease-out',
-    prevArrow: '<img src="assets/img/H_e-UI-flecha-prev.png" class="slide-arrow prev-arrow">',
-    nextArrow: '<img src="assets/img/H_e-UI-flecha-next.png" class="slide-arrow next-arrow">'
+    autoplay: true,
+    autoplaySpeed: 2000,
   });
 
   $('.autoplay').slick({

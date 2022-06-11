@@ -1,0 +1,25 @@
+
+.hand-cursor{
+  cursor: pointer;
+}
+.slide-arrow{
+  position: absolute;
+  bottom: -20px;
+  cursor: pointer;
+}
+.prev-arrow{
+  right: 30px;
+}
+.next-arrow{
+  right: 0px;
+}
+.circular {
+  width: 128px;
+  height: 128px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.slick-slider .slick-dots {
+  text-align: right;
+}
