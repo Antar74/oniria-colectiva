@@ -17,13 +17,18 @@
   <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700" rel="stylesheet">
 
   <!-- Vendor CSS Files -->
-  <link href="assets/vendor/animate.css/animate.min.css" rel="stylesheet">
   <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
   <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
-  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
 
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
+
+  <!-- Slick Slider library -->
+          <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+          <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
+
+      <!-- AOS animation library -->
+      <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
 </head>
 
@@ -82,6 +87,38 @@
   </nav><!-- End Header/Navbar -->
 
   <!-- ======= Intro Section ======= -->
+
+  <!-- Supervielle tipografia -->
+  <div class="col-md-6" data-aos="fade-up" data-aos-delay="200">
+    <div class="lazy">
+      <video autoplay muted loop playsinline>
+        <source src="media\1b.mp4" type="video/mp4" />
+      </video>
+        <video autoplay muted loop playsinline>
+          <source src="media\1d.mp4" type="video/mp4" />
+        </video>
+
+          <video autoplay muted loop playsinline>
+            <source src="media\1g.mp4" type="video/mp4" />
+          </video>
+
+            <video autoplay muted loop playsinline>
+              <source src="media\2b.mp4" type="video/mp4" />
+            </video>
+
+              <video autoplay muted loop playsinline>
+                <source src="media\2d.mp4" type="video/mp4" />
+              </video>
+
+                <video autoplay muted loop playsinline>
+                  <source src="media\2g.mp4" type="video/mp4" />
+                </video>
+    </div>
+    <div class="pb-5 small d-flex align-items-end">
+      <img src="assets\img\H_e-UI-flecha-arriba-corta.png" class="img-fluid">
+      Diseño de tipografía<br/>(Luciano Supervielle, 2016)
+    </div>
+  </div>
   <div class="intro intro-carousel swiper position-relative">
 
     <div class="swiper-wrapper">
@@ -147,7 +184,7 @@
             </p>
           </div>
           <div class="credits">
-            D: <a href="https://harto_estudio.com/">H_e</a>
+
           </div>
         </div>
       </div>
@@ -159,11 +196,20 @@
 
   <!-- Vendor JS Files -->
   <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
-  <script src="assets/vendor/php-email-form/validate.js"></script>
 
-  <!-- Template Main JS File -->
-  <script src="assets/js/main.js"></script>
+  <script type="text/javascript" src="slick/slick.min.js"></script>
+
+  <script type="text/javascript" src="js/HartoScripts.js"></script>
+
+<!-- AOS animation library -->
+ <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+ <script>
+      AOS.init({
+        easing: 'ease-out-back',
+        duration: 1000
+      });
+ </script>
+<!-- AOS animation library end-->
 
 </body>
 
