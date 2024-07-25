@@ -27,10 +27,42 @@
     <!-- AOS animation library -->
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
+
+
+
     </head>
 
 
     <body id="page-top">
+
+      <!-- pop up-->
+
+      <div class="box">
+          <a class="button" href="#popup1" style="display:none;">.</a> <!-- Hide the button -->
+      </div>
+
+      <div id="popup1" class="overlay visible"> <!-- Add 'visible' class here -->
+          <div class="popup">
+              <h2>&nbsp;</h2>
+              <a class="close" href="#">×</a>
+              <div class="content">
+                  <img src="assets\img\afiche.png" width="100%" height="auto">
+              </div>
+          </div>
+      </div>
+
+      <script>
+          // Add this JavaScript code
+          document.querySelectorAll('.overlay, .close').forEach(item => {
+              item.addEventListener('click', event => {
+                  if (event.target.classList.contains('overlay') || event.target.classList.contains('close')) {
+                      document.querySelector('.overlay').style.visibility = 'hidden';
+                      document.querySelector('.overlay').style.opacity = '0';
+                  }
+              });
+          });
+      </script>
+
 
         <!-- Navigation-->
         <nav class="navbar navbar-expand-lg navbar-light fixed-top shadow-sm" id="mainNav">
@@ -124,6 +156,7 @@
 
    <!-- TILT animation library
         <script type="text/javascript" src="js/tilt.jquery.js"></script> -->
+
 
 
     </body>

@@ -1,5 +1,6 @@
 
 $(document).ready(function(){
+
   $('.lazy').slick({
     lazyLoad: 'ondemand',
     slidesToShow: 1,
@@ -21,6 +22,8 @@ $(document).ready(function(){
   autoplay: true,
   autoplaySpeed: 2000,
   });
+
+
 
 
 
