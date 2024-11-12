@@ -25,6 +25,9 @@ MENU STYLES
 OTHER STYLES
 */
 
+.texto-grande{
+  font-size: 1.5em;
+}
 
 .hand-cursor{
   cursor: pointer;
